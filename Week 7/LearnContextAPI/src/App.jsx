@@ -14,6 +14,7 @@ function App() {
         <Count setCount={setCount}/>
       </CountContext.Provider>
       
+      
     </>
   )
 }
@@ -49,7 +50,5 @@ function Buttons({setCount}) {
     </>
   )
 }
-
-
 
 export default App
